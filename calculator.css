@@ -1,0 +1,61 @@
+#Container{
+    position: relative;
+    width: 25%;
+    min-height: 500px; 
+    
+    left: 580px;
+    top: 100px;
+}
+#display-box{
+    position: absolute;
+    width: 97%;
+    height: 50px;
+    top: 15px;
+    left: 2px;
+}
+.button-box{
+    position: absolute;
+    
+    width: 97%;
+    min-height: 350px;
+    left: 3.8px;
+    top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+
+}
+#zero{
+    position: absolute;
+    left: 3.8px;
+    top: 457px;
+    width: 180px;
+    height: 70px;
+}
+
+#point{
+    position: absolute;
+    width: 180px;
+    height:70px;
+    top: 457px;
+    left: 190px;
+}
+button{
+    border: red solid 2px;
+    font-size: 28px;
+    border-radius: 10px;
+    background-color: aqua;
+    color: red;
+
+}
+#display-box{
+    border: red solid 2px;
+    font-size: 25px;
+    background-color: aqua;
+    color: red;
+}
+body{
+    background-color: yellow;
+}
